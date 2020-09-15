@@ -96,6 +96,12 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/abhi_naba/"
       
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "abhinabasaha"
+
+      
 defaults:
   # _posts
   - scope:

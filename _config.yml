@@ -71,11 +71,14 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/saharintu"
     - label: "GitHub"
-      icon: "fab fa-github"  #"fab fa-fw fa-github" 
+      icon: "fab fa-fw fa-github" #"fab fa-github"  #"fab fa-fw fa-github" 
       url: "https://github.com/abhinabasaha"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/abhi_naba/"
+    - label: "Youtube"
+      icon: "fab fa-youtube"
+      url: "https://www.youtube.com/channel/UCTXDh_8dfqYYybbNkWnNHEQ/featured?view_as=subscriber"
     
 
 footer:
@@ -90,11 +93,16 @@ footer:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/saharintu"
     - label: "GitHub"
-      icon: "fab fa-github" #"fab fa-fw fa-github"  
+      icon: "fab fa-fw fa-github" #"fab fa-fw fa-github"  
       url: "https://github.com/abhinabasaha"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/abhi_naba/"
+    - label: "Youtube"
+      icon: "fab fa-youtube"
+      url: "https://www.youtube.com/channel/UCTXDh_8dfqYYybbNkWnNHEQ/featured?view_as=subscriber"
+      
+      
       
 comments:
   provider: "disqus"

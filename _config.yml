@@ -71,7 +71,7 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/saharintu"
     - label: "GitHub"
-      icon: "fab fa-github" #"fab fa-fw fa-github" 
+      icon: "fab fa-github-square" #"fab fa-fw fa-github" 
       url: "https://github.com/abhinabasaha"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"

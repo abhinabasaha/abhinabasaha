@@ -59,8 +59,7 @@ plugins:
 author:
   name   : "Abhinaba Saha"
   avatar : "/assets/images/informal.jpg"
-  bio    : "<b>Research Interests<\b> \n
-            - Deep Learning"
+  bio    : "A researcher and keen explorer having M.Tech in Intelligent Automation and Robotics, [JU](http://www.jaduniv.edu.in/). My research interests includes Artificial Intelligence, Machine Learning, Deep Learning, Data Science, Computer vision, Pattern Recognition, Robotics, Python, Linux, Cloud Computing. 
   links:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin-in"

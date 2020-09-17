@@ -60,7 +60,8 @@ plugins:
 author:
   name   : "Abhinaba Saha"
   avatar : "/assets/images/informal.jpg"
-  bio    : "Site under construction"
+  bio    : "Research Interests
+            - Deep Learning"
   links:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin-in"

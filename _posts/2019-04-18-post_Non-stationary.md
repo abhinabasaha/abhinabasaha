@@ -211,7 +211,7 @@ plt.show()
 ```
 
 
-![png](output_files/non_stationary/output_10_0.png)
+![output_10_0.png](output_files/non_stationary/output_10_0.png)
 
 
 **Now, lets dive into some theoretical concepts, which I will be implementing accordingly.**

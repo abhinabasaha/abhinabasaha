@@ -211,8 +211,8 @@ plt.show()
 ```
 
 
-<!--![output_10_0.png](assets/images/output_files/non_stationary/output_10_0.png)-->
-![test](assets/images/test_img.jpg)
+![output_10_0.png]({{ site.url }}{{ site.baseurl }}assets/images/output_files/non_stationary/output_10_0.png)
+<!--![test](assets/images/test_img.jpg)-->
 
 
 
@@ -318,7 +318,7 @@ plt.show()
 ```
 
 
-![png](assets/images/output_files/non_stationary/output_17_0.png)
+![png]({{ site.url }}{{ site.baseurl }}assets/images/output_files/non_stationary/output_17_0.png)
 
 
 **Black** = Opening Price, The Original Price Values <br>
@@ -717,7 +717,7 @@ plt.show()
 ```
 
 
-![png](assets/images/output_files/non_stationary/output_34_0.png)
+![png]({{ site.url }}{{ site.baseurl }}assets/images/output_files/non_stationary/output_34_0.png)
 
 
 The results shows the trend resembles the observed series, because the decomposition function uses the previous period values as a trendsetter. 
@@ -735,7 +735,7 @@ plt.show()
 ```
 
 
-![png](assets/images/output_files/non_stationary/output_37_0.png)
+![png]({{ site.url }}{{ site.baseurl }}assets/images/output_files/non_stationary/output_37_0.png)
 
 
 Here too its shows very similar results to the first decomposition. The seasonal sequence has no clear pattern once again and the trend closely resembles the observed series. Thus it further proves there is no seasonality among Opening prices. Since the trend follows actual data closely, its better to have a closer look at the correlation between past and present values.
@@ -774,7 +774,7 @@ plt.show()
 ```
 
 
-![png](assets/images/output_files/non_stationary/output_42_0.png)
+![png]({{ site.url }}{{ site.baseurl }}assets/images/output_files/non_stationary/output_42_0.png)
 
 
 Let's examine the ACF of the white noise series.
@@ -794,7 +794,7 @@ plt.show()
 ```
 
 
-![png](assets/images/output_files/non_stationary/output_44_0.png)
+![png]({{ site.url }}{{ site.baseurl }}assets/images/output_files/non_stationary/output_44_0.png)
 
 
 #### PACF
@@ -811,7 +811,7 @@ plt.show()
 ```
 
 
-![png](assets/images/output_files/non_stationary/output_46_0.png)
+![png]({{ site.url }}{{ site.baseurl }}assets/images/output_files/non_stationary/output_46_0.png)
 
 
 Let's check out what the PACF plots of random walk and white noise data look like. 
@@ -824,7 +824,7 @@ plt.show()
 ```
 
 
-![png](assets/images/output_files/non_stationary/output_48_0.png)
+![png]({{ site.url }}{{ site.baseurl }}assets/images/output_files/non_stationary/output_48_0.png)
 
 
 
@@ -835,7 +835,7 @@ plt.show()
 ```
 
 
-![png](assets/images/output_files/non_stationary/output_49_0.png)
+![png]({{ site.url }}{{ site.baseurl }}assets/images/output_files/non_stationary/output_49_0.png)
 
 
 There should be no auto correlation between the elements of a white noise sequence.
@@ -877,7 +877,7 @@ plt.show()
 ```
 
 
-![png](assets/images/output_files/non_stationary/output_53_0.png)
+![png]({{ site.url }}{{ site.baseurl }}assets/images/output_files/non_stationary/output_53_0.png)
 
 
 **b) Seasonal Differencing**
@@ -900,7 +900,7 @@ plt.show()
 ```
 
 
-![png](assets/images/output_files/non_stationary/output_55_0.png)
+![png]({{ site.url }}{{ site.baseurl }}assets/images/output_files/non_stationary/output_55_0.png)
 
 
 ### Comparing ADF Stats after transforming the Opening Price
@@ -1004,7 +1004,7 @@ plt.show()
     
 
 
-![png](assets/images/output_files/non_stationary/output_60_1.png)
+![png]({{ site.url }}{{ site.baseurl }}assets/images/output_files/non_stationary/output_60_1.png)
 
 
 The error message comes as the differencing step results to zero for some values, thus after obtaining log it becomes infinite.
@@ -1089,7 +1089,7 @@ plt.show()
 ```
 
 
-![png](assets/images/output_files/non_stationary/output_65_0.png)
+![png]({{ site.url }}{{ site.baseurl }}assets/images/output_files/non_stationary/output_65_0.png)
 
 
 ### Comparing ADF Stats after transforming the Opening Price

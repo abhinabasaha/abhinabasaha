@@ -111,7 +111,7 @@ raw_data.head(3)
 
 
 After loading the data, first make a copy, convert the date column into python's datetime stamp and use it as the index.Then set the data frequency to business days. In case new rows are generated, I have filled it with the previous day's value.<br>
-These steps have been elaborately explained in my another post: [Processing Time Series Data in Python](https://abhinabasaha.in/2020-04-22-Time_series_Analysis/). 
+<!--These steps have been elaborately explained in my another post: [Processing Time Series Data in Python](https://abhinabasaha.in/2020-04-22-Time_series_Analysis/). -->
 
 
 ```python

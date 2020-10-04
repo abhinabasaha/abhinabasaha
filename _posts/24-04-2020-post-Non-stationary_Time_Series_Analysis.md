@@ -1,8 +1,8 @@
 ---
 title: "Non-stationary Time Series Analysis"
-date: 2020-04-24T15:34:30-04:00
+date: 2020-04-24 <!--T15:34:30-04:00-->
 categories:
-  - blog
+  - post
 tags:
   - Time Series Analysis
   - Python

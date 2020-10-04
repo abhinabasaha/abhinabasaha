@@ -211,7 +211,7 @@ plt.show()
 ```
 
 
-![output_10_0.png]({{ site.url }}{{ site.baseurl }}assets/images/output_files/non_stationary/output_10_0.png)
+![img]({{ https://abhinabasaha.in/ }}assets/images/output_files/non_stationary/output_10_0.png)
 <!--![test](assets/images/test_img.jpg)-->
 
 

@@ -225,7 +225,7 @@ Data in real life, particularly financial data are seldom stationary, the parame
 Before going to the methods of converting non-stationary time series data, its better to analyse different types of the non-stationary time-series which will help in better understanding of the underlying trends which is vital for applying the correct transformation method.<br>
 **Examples of non-stationary time series:**<br>
 
-a) **Pure Random Walk** (\Y_t = \Y_{t-1} + \ε_t ): <br>
+a) **Pure Random Walk** ($$Y_t$$ = $$Y_{t-1}$$ + $$ε_t$$ ): <br>
 In random walk, the patterns tend to persist over time and the difference between each period is assumed to be a stochastic (non-systematic) component **white noise** (description of white noise can be found **[here](https://abhinabasaha.in/2020-04-22-Time_series_Analysis/)**). Simply speaking, if $Y_t$ is a value at time 't', then it is equal to the value at time $t-1$, i.e. the last period $Y_{t-1}$ plus a white noise ($ε_t$) which is independent and identically distributed with **mean** ($\mu$=0) and **constant variance** ($\sigma^2$=k).
 <br>
 

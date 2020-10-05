@@ -140,8 +140,8 @@ tag_archive:
   path: /tags/
   
   analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "UA-162563847-1" 
-    anonymize_ip: false # default
+    provider: "google-universal" #"google-gtag"
+    google:
+      tracking_id: "UA-162563847-1" 
+      anonymize_ip: false # default
 

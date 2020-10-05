@@ -914,7 +914,7 @@ A white noise is a sequence with no specific pattern. In case of time series, wh
 Conditions for which a time series is a white noise: <br>
 1. mean ($\mu$) = 0 (constant)
 2. varaince ($\sigma$) = constant
-3. Auto-correlation ($\rho$) = **cor $(x_t, x_{t-1})$ = 0** <br>(thus constant co-variance, since Cov($x_t$,$x_{t_1}$) = $\rho$($x_t$,$x_{t-1}$)*($\sigma_{x_t}$, $\sigma_{x_{t-1}}$) = 0  <br>
+3. Auto-correlation ($\rho$) = **cor $(x_t, x_{t-1})$ = 0** <br>(thus constant co-variance, since Cov($x_t$,$x_{t_1}$) = $\rho$($x_t$,$x_{t-1}$)X($\sigma_{x_t}$, $\sigma_{x_{t-1}}$) = 0  <br>
 
 Thus white noise is a sequence of random data without having any periodicity, happens sporadically, and there's no scope of projecting it into the future. <br> NOTE: When the values of the sequence are drawn from from a Gaussian Distribution, then it is called Gaussian White Noise.
 <br>
@@ -1107,8 +1107,6 @@ plt.savefig('noise_vs_data.png')
 
 
 
-    <!--<Figure size 432x288 with 0 Axes>-->
-
 
 As the series contains 420224 data points, the graph is clumpsy, plotting with fewer data points will solve the issue.
 
@@ -1138,8 +1136,6 @@ plt.savefig('noise_vs_data_trunc.png')
 ![png](/output_files/output_46_0.png)
 
 
-
-   <!-- <Figure size 432x288 with 0 Axes> -->
 
 
 Now, it is easy to see the differences between the pattern of the two series. So there are smaller jumps between periods in the pressure value, since the values are not random. Thus to make an accurate forecast, the pattern has to be recognised.

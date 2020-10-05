@@ -904,8 +904,8 @@ pylab.show()
 
 A stationary series is a stochastic process whose statistical properties such as mean, variance (the average degree to which each point differs from the average of all data points) and autocorrelation do not change over time. Hence, a non-stationary series is one whose statistical properties change over time because of presence of a certain trend.<br>
 Types of stationary time-series:<br>
-<t> a) **Strict Stationary:** In a series when samples of identical size have identical distributions, i.e. $Sample_1$ ($x_t$, $x_{t+k}$) and $Sample_2$ ($x_{t+e}$, $x_{t+e+k}$) have same distributions **(Dist($\mu$,$\sigma^2$))**. This is very restrictive and rarelyobserved in nature.<br>
-<t> b) **Weak Stationary:** having a **constant mean** ($\mu$ = constant), **constant variance** ($\rho$=constant) and **consistent covariance** between periods at an identical distance from one another i.e. Cov($x_n$, $x_{n+k}$) = Cov($x_m$, $x_{m+k}$). Eg: **white noise**. <br>
+a) **Strict Stationary:** In a series when samples of identical size have identical distributions, i.e. $Sample_1$ ($x_t$, $x_{t+k}$) and $Sample_2$ ($x_{t+e}$, $x_{t+e+k}$) have same distributions **(Dist($\mu$,$\sigma^2$))**. This is very restrictive and rarelyobserved in nature.<br>
+b) **Weak Stationary:** having a **constant mean** ($\mu$ = constant), **constant variance** ($\rho$=constant) and **consistent covariance** between periods at an identical distance from one another i.e. Cov($x_n$, $x_{n+k}$) = Cov($x_m$, $x_{m+k}$). Eg: **white noise**. <br>
 
 Non-stationary data should be converted to stationary before applying any forecasting model, ny removing its underlying trend which is also a function of time.
 

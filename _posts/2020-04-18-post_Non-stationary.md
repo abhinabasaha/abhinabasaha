@@ -1,6 +1,7 @@
 ---
 title: "Non-stationary Time Series Analysis"
 date: 2020-04-18T15:34:30-04:00
+layout: post
 categories:
   - blog
 tags:

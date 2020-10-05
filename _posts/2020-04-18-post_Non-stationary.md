@@ -563,11 +563,7 @@ Checking for Opening price:
 
 ```python
 sts.kpss(rand_walk['Open'],nlags='legacy', regression='c')
-```
-
-    C:\ProgramData\Anaconda3\lib\site-packages\statsmodels\tsa\stattools.py:1685: InterpolationWarning: p-value is smaller than the indicated p-value
-      warn("p-value is smaller than the indicated p-value", InterpolationWarning)
-    
+```    
 
 
 
@@ -602,19 +598,6 @@ kpss_test = kpss_test.rename(columns={0: 'KPSS_Test_statistics', 1: 'p_value', 2
                            3: 'D_trend',4: 'random_walk_drift_Dtrend',5: 'White_noise'})
 kpss_test
 ```
-
-    C:\ProgramData\Anaconda3\lib\site-packages\statsmodels\tsa\stattools.py:1685: InterpolationWarning: p-value is smaller than the indicated p-value
-      warn("p-value is smaller than the indicated p-value", InterpolationWarning)
-    C:\ProgramData\Anaconda3\lib\site-packages\statsmodels\tsa\stattools.py:1685: InterpolationWarning: p-value is smaller than the indicated p-value
-      warn("p-value is smaller than the indicated p-value", InterpolationWarning)
-    C:\ProgramData\Anaconda3\lib\site-packages\statsmodels\tsa\stattools.py:1685: InterpolationWarning: p-value is smaller than the indicated p-value
-      warn("p-value is smaller than the indicated p-value", InterpolationWarning)
-    C:\ProgramData\Anaconda3\lib\site-packages\statsmodels\tsa\stattools.py:1685: InterpolationWarning: p-value is smaller than the indicated p-value
-      warn("p-value is smaller than the indicated p-value", InterpolationWarning)
-    C:\ProgramData\Anaconda3\lib\site-packages\statsmodels\tsa\stattools.py:1685: InterpolationWarning: p-value is smaller than the indicated p-value
-      warn("p-value is smaller than the indicated p-value", InterpolationWarning)
-    C:\ProgramData\Anaconda3\lib\site-packages\statsmodels\tsa\stattools.py:1687: InterpolationWarning: p-value is greater than the indicated p-value
-      warn("p-value is greater than the indicated p-value", InterpolationWarning)
     
 
 

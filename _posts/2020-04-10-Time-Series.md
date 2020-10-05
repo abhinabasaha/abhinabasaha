@@ -1107,7 +1107,7 @@ plt.savefig('noise_vs_data.png')
 
 
 
-    <Figure size 432x288 with 0 Axes>
+    <!--<Figure size 432x288 with 0 Axes>-->
 
 
 As the series contains 420224 data points, the graph is clumpsy, plotting with fewer data points will solve the issue.
@@ -1139,7 +1139,7 @@ plt.savefig('noise_vs_data_trunc.png')
 
 
 
-    <Figure size 432x288 with 0 Axes>
+   <!-- <Figure size 432x288 with 0 Axes> -->
 
 
 Now, it is easy to see the differences between the pattern of the two series. So there are smaller jumps between periods in the pressure value, since the values are not random. Thus to make an accurate forecast, the pattern has to be recognised.

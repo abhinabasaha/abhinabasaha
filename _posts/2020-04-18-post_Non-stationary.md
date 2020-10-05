@@ -228,7 +228,7 @@ a) **Pure Random Walk** (Y<sub>t</sub> = Y<sub>(t-1)</sub> + ε<sub>t</sub> ): <
 In random walk, the patterns tend to persist over time and the difference between each period is assumed to be a stochastic (non-systematic) component **white noise** (description of white noise can be found **[here](https://abhinabasaha.in/2020-04-22-Time_series_Analysis/)**). Simply speaking, if $Y_t$ is a value at time 't', then it is equal to the value at time $t-1$, i.e. the last period $Y_{t-1}$ plus a white noise ($ε_t$) which is independent and identically distributed with **mean** ($\mu$=0) and **constant variance** ($\sigma^2$=k).
 <br>
 
-b) **Random Walk with Drift** (Y<sub>t</sub> = \alpha + Y<sub>(t-1)</sub> + ε<sub>t</sub> ):<br>
+b) **Random Walk with Drift** (Y<sub>t</sub> = &alpha + Y<sub>(t-1)</sub> + ε<sub>t</sub> ):<br>
 In this case the random walk will have an extra elemnt which is a constant value ($\alpha$), giving it a drift. If $\alpha$ $>$ 0, then $Y_t$ increases on average.
 <br>
 

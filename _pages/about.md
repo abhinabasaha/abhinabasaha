@@ -57,5 +57,5 @@ I will be away until Feb 6, with very limited time to work. My responses will be
 
 
 <p><i class="fas fa-envelope-square"></i>: abhinaba.saha9590@gmail.com</p>
-<p><i class="fas fa-mobile"></i>: +91-7003664219</p>
+<!--<p><i class="fas fa-mobile"></i>: +91-7003664219</p>-->
 <p><i class="fab fa-whatsapp"></i>: +91-9088703997</p>

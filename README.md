@@ -1,1 +1,1 @@
-A tech enthisisast, a data science practitioner and a constant explorer.
+A tech enthusiasts, a data science practitioner and a constant explorer.
